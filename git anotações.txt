@@ -1,0 +1,30 @@
+GIT – ANOTAÇÕES
+
+GitHub – É onde você hospeda seus projetos.
+Git – é um sistema que serve para você controlar as modificações por meio de versões chamados “commits” (pontos de alteração) também é chamado por repositório de versionamento, que pe onde a pessoa trabalha no projeto e pode fazer uma cópia para seu computador (repositório local), que é quando faz alterações e depois salva essas alterações no servidor (repositório remoto).
+
+OPERAÇÕES PRINCIPAIS
+PULL – Serve para quando você tiver já o repositório na sua máquina e quiser só atualizar.
+CLONE – Serve para quando não tem nada e quer copiar todo o repositório remoto e versões se chama.
+PUSH – envia do seu repositório local para o repositório remoto serve para e o servidor fica atualizado com os commits que você fez.
+HEAD – Estado atual do nosso código, ou seja, onde o git nos colocou
+working tree: Local onde os arquivos realmente estão sendo armazenados e editados.
+Index: local onde o git armazena o que será comitado, ou seja, o local entre a working tree e o repositório do git em si.
+git config --list: verifica nome e e-mail
+git config -- global user.name “Adriely Carvalho”: configura o nome 
+git config -- global user.email “adrielycf.2001@gmail.com”: configura email
+git init: inicia um novo repositório local na pasta do seu projeto 
+git status: verifica arquivos 
+git add.: adiciona os arquivos ao stage 1º
+git commit -m “mensagem do que vc fez”: salva uma nova versão do projeto
+git push -u origin master: envia o repositório local para o remoto 3º
+git log -- oneline: verifica as versões,
+git pull origin master: puxa o último commit que você acabou de apagar 
+git remote set-url origin  (url do novo git): muda o repositório “origin” para novo.
+cd nome da pasta: é para entrar da pasta 
+git clean -df ou git checkout --. : desfaz tudo que você fez no último commit.
+git reset --soft HEAD~1: remove o último commit e mantem os arquivos do mesmo jeito. (muda o gitBash mas no java e no GitHub não).
+git reset –hard HEAD~1: remove o último commit e as alterações que você fez.
+cd: sair da pasta
+pwd: ver a pasta que está.
+mkdir: cria uma pasta vazia
